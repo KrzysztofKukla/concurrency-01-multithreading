@@ -1,6 +1,7 @@
 package pl.kukla.krzys.concurrency.multithreading.basic;
 
 import org.junit.jupiter.api.Test;
+import pl.kukla.krzys.concurrency.multithreading.NewThread;
 
 /**
  * @author Krzysztof Kukla
@@ -52,6 +53,13 @@ public class Basic {
 
         System.out.println(Thread.currentThread().getName() + " after starting a new Thread");
 
+    }
+
+    @Test
+    void secondThread() throws Exception {
+        Thread second = new NewThread();
+
+        second.start();
     }
 
 }
