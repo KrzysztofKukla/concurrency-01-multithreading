@@ -1,10 +1,10 @@
-package pl.kukla.krzys.concurrency.multithreading;
+package pl.kukla.krzys.concurrency.multithreading.hackers;
 
-import pl.kukla.krzys.concurrency.multithreading.hackers.AscendingHackerThread;
-import pl.kukla.krzys.concurrency.multithreading.hackers.DescendingHackerThread;
-import pl.kukla.krzys.concurrency.multithreading.hackers.PasswordProperties;
-import pl.kukla.krzys.concurrency.multithreading.hackers.PoliceThread;
-import pl.kukla.krzys.concurrency.multithreading.hackers.Vault;
+import pl.kukla.krzys.concurrency.multithreading.hackers.domain.PasswordProperties;
+import pl.kukla.krzys.concurrency.multithreading.hackers.domain.Vault;
+import pl.kukla.krzys.concurrency.multithreading.hackers.tread.AscendingHackerThread;
+import pl.kukla.krzys.concurrency.multithreading.hackers.tread.DescendingHackerThread;
+import pl.kukla.krzys.concurrency.multithreading.hackers.tread.PoliceThread;
 
 import java.util.Arrays;
 import java.util.List;

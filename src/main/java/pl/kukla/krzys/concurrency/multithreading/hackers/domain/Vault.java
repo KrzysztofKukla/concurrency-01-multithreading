@@ -1,4 +1,4 @@
-package pl.kukla.krzys.concurrency.multithreading.hackers;
+package pl.kukla.krzys.concurrency.multithreading.hackers.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

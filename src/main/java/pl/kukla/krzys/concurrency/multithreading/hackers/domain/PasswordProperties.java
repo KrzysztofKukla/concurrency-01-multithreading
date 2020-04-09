@@ -1,4 +1,4 @@
-package pl.kukla.krzys.concurrency.multithreading.hackers;
+package pl.kukla.krzys.concurrency.multithreading.hackers.domain;
 
 /**
  * @author Krzysztof Kukla

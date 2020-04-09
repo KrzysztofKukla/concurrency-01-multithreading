@@ -1,4 +1,7 @@
-package pl.kukla.krzys.concurrency.multithreading.hackers;
+package pl.kukla.krzys.concurrency.multithreading.hackers.tread;
+
+import pl.kukla.krzys.concurrency.multithreading.hackers.domain.PasswordProperties;
+import pl.kukla.krzys.concurrency.multithreading.hackers.domain.Vault;
 
 /**
  * @author Krzysztof Kukla
