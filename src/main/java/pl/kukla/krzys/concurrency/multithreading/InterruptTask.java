@@ -3,7 +3,7 @@ package pl.kukla.krzys.concurrency.multithreading;
 /**
  * @author Krzysztof Kukla
  */
-public class BlockingTask extends Thread {
+public class InterruptTask extends Thread {
     public static void main(String[] args) {
         Thread thread = new BlockingTaskThread();
 
