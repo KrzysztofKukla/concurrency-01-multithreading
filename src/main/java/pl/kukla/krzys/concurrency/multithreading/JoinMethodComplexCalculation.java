@@ -5,7 +5,7 @@ import java.math.BigInteger;
 /**
  * @author Krzysztof Kukla
  */
-public class ComplexCalculation {
+public class JoinMethodComplexCalculation {
 
     public static void main(String[] args) throws InterruptedException {
         BigInteger base1 = new BigInteger("10");
@@ -14,7 +14,7 @@ public class ComplexCalculation {
         BigInteger base2 = new BigInteger("20");
         BigInteger power2 = new BigInteger("3");
 
-        BigInteger result = new ComplexCalculation().calculateResult(base1, power1, base2, power2);
+        BigInteger result = new JoinMethodComplexCalculation().calculateResult(base1, power1, base2, power2);
         System.out.println("Result-> " + result);
     }
 

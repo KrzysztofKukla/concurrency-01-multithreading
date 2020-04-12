@@ -10,7 +10,7 @@ import java.math.BigInteger;
 /**
  * @author Krzysztof Kukla
  */
-public class LongComputationTask {
+public class ThreadAsDeamon {
     public static void main(String[] args) {
 
         //if we will pass very big numbers then the calculation takes very long time

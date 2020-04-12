@@ -1,16 +1,16 @@
 package pl.kukla.krzys.concurrency.multithreading.interrupt;
 
 import org.junit.jupiter.api.Test;
-import pl.kukla.krzys.concurrency.multithreading.InterruptTask;
+import pl.kukla.krzys.concurrency.multithreading.InterruptThread;
 
 /**
  * @author Krzysztof Kukla
  */
-class InterruptTaskTest {
+class InterruptThreadTest {
 
     @Test
     void interruptedTest() throws Exception {
-        Thread thread = new InterruptTask();
+        Thread thread = new InterruptThread();
 
         thread.start();
     }

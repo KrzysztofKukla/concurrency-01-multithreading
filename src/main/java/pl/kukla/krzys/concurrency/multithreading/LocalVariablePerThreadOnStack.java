@@ -3,7 +3,7 @@ package pl.kukla.krzys.concurrency.multithreading;
 /**
  * @author Krzysztof Kukla
  */
-public class StockRunner {
+public class LocalVariablePerThreadOnStack {
     public static void main(String[] args) {
         int x = 1;
         int y = 2;

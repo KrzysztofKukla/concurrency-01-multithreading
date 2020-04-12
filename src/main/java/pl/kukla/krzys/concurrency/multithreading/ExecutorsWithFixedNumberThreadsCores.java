@@ -19,7 +19,7 @@ import java.util.concurrent.Executors;
  */
 //in  the first case we will load very large book
 // client will provide word to find how many appear in the book 'localhost/search?work=talk'
-public class LoadBookFromDisk {
+public class ExecutorsWithFixedNumberThreadsCores {
 
     private static final String INPUT_FILE = "/war_and_peace.txt";
     //    private static final String INPUT_FILE = "/test.txt";
@@ -32,7 +32,7 @@ public class LoadBookFromDisk {
     }
 
     private static byte[] loadBook(String file) throws URISyntaxException, IOException {
-        Path path = Paths.get(LoadBookFromDisk.class.getResource(file).toURI());
+        Path path = Paths.get(ExecutorsWithFixedNumberThreadsCores.class.getResource(file).toURI());
         return Files.readAllBytes(path);
     }
 

@@ -5,7 +5,7 @@ package pl.kukla.krzys.concurrency.multithreading;
  */
 //atomic operation allows to run everything in single operation
 //a++ is actually 3 operations
-public class IncrementRunner {
+public class SynchronizedWithBlockCode {
 
     public static void main(String[] args) throws InterruptedException {
         InventoryCounter inventoryCounter = new InventoryCounter();
