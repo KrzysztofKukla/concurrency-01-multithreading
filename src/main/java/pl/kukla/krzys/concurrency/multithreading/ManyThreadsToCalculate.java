@@ -9,7 +9,7 @@ import java.util.List;
  * @author Krzysztof Kukla
  */
 //factorial calculation ( pol. obliczanie silni )
-public class CalculationInSeperateThreads {
+public class ManyThreadsToCalculate {
     public static void main(String[] args) throws InterruptedException {
         List<Long> inputNumbers = Arrays.asList(11111L, 22222L, 33L, 333333L, 4444L, 5555L, 666666L, 77777L, 8888L, 9999L);
 
