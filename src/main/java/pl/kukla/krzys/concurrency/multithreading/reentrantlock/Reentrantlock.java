@@ -1,4 +1,4 @@
-package pl.kukla.krzys.concurrency.multithreading;
+package pl.kukla.krzys.concurrency.multithreading.reentrantlock;
 
 import javafx.animation.AnimationTimer;
 import javafx.animation.FillTransition;
@@ -27,7 +27,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author Krzysztof Kukla
  */
 //for UIThread we use JavaFX - Java framework for UI
-public class Reetrantlock extends Application {
+public class Reentrantlock extends Application {
     public static void main(String[] args) {
         launch(args);
     }
